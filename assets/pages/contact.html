@@ -40,20 +40,29 @@
   
   
     
- <section>  
-   <div>
-     <h4>contacto</h4>
-   </div>
-   <div>
-     <form action=" ">
-   <label for="nombre">Nombre</label>
-   <input type="text" name="nombre" id="nombre" placeholder="ej: gabriel">
-  </form>
-   <div>
+<div class="container mt-5">
+  <h1>Contacto</h1>
+  <form class="row g-3">
+  <div class="col-md-6">
+    <label for="firstname" class="form-label">Nombre</label>
+    <input type="text" class="form-control" id="firstname" required>
+    
   </div>
- </section>
+  <div class="col-md-6">
+    <label for="firstname" class="form-label">Email</label>
+    <input type="text" class="form-control" id="firstname" required>
+  </div>
+  <div class="col-md-12">
+    <label for="comments" class="form-label">Comentarios, preguntas?</label>
+    <textarea class="form-control" id="comments" rows="3"></textarea>
+  </div>
+</form>
 
- 
+</div>
+
+<div class="container-fluid bg-dark text-center p-3  footer-text">
+  <p class="small">&copy; Todos los derechos reservados :: DogsHearts</p>
+</div>
 
    
  <script src="../js/bootstrap.bundle.js"></script>
