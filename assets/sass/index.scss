@@ -1,0 +1,84 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap");
+@import './views/gallery';
+/* variables */
+/* estilos globales */
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block; }
+
+/* helpers */
+.flex-row {
+  display: flex; }
+
+.flex-column {
+  display: flex;
+  flex-direction: column; }
+
+body {
+  font-family: 'DM Sans', sans-serif; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+/* estilos del header & navbar */
+header {
+  background-color: #131312;
+  color: #fff; }
+
+header .navbar {
+  min-height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0% 2rem; }
+
+header .logo {
+  flex-basis: 30%; }
+
+header .menu {
+  flex-basis: 40%;
+  justify-content: space-between; }
+
+.menu .menu__item .menu_link {
+  font-size: 1.8em;
+  padding: 1rem; }
+
+/* estilos del home/index */
+.container {
+  margin-top: 10px; }
+
+.slide {
+  margin-top: 10px; }
+
+.slide img {
+  height: 50vh; }
+
+
+
+/* estilos del blog */
+img {
+  height: 300px;
+  width: 600px;
+  object-fit: cover; }
+
+/* mobile */
+/* estilos del about */
+.blog {
+  color: black;
+  width: 500px;
+  border: 1px solid black; }
+
+/* estilos del contact */
+/*estilos del footer*/
+.footer-text {
+  color: #ffffff; }
