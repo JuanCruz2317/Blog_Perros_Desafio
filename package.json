@@ -19,10 +19,8 @@
     "url": "https://github.com/JuanCruz2317/Blog_Perros_Desafio/issues"
   },
   "homepage": "https://github.com/JuanCruz2317/Blog_Perros_Desafio#readme",
-  "dependencies": {
-    "node-sass": "^7.0.1"
-  },
   "devDependencies": {
+    "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
   }
 }
