@@ -2,6 +2,29 @@
 :root {
     $principal: #fff; }
 
+    $spacings:(
+        xlarge: 5rem,
+        large: 3rem,
+        medium: 2rem,
+        smaill: 1.5rem,
+        xsmall: 1 rem);
+        
+        html, body{
+            font-size: 15px;
+            line-height: 1,5;
+            box-sizing: border-box;
+            margin: 0;
+            overflow-x: hidden;
+            top: 0;
+            left: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgba(34,54,69,.7);
+            font-weight: 500;
+        }
+
    /* bootstrap */
 
    $enable-shadows:true;
